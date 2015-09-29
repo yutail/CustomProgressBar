@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomProgressBar">
+        <attr name="current_progress" format="integer"/>
+        <attr name="indicator_height" format="dimension"/>
+        <attr name="indicator_width" format="dimension"/>
+        <attr name="reached_color" format="color"/>
+        <attr name="unreached_color" format="color"/>
+        <attr name="bar_thickness" format="dimension"/>
+        <attr name="text_size" format="dimension"/>
+        <attr name="text_color" format="color"/>
+        <attr name="text_offset" format="dimension"/>
+        <attr name="text_visibility" format="enum">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+        </attr>
+        <attr name="indicator_type" format="enum">
+            <enum name="line" value="0"/>
+            <enum name="circle" value="1"/>
+            <enum name="square" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>
