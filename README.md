@@ -14,11 +14,11 @@ dependencies {
 
 To use it, simply add the following code:
 ```java
-      <com.yutailuo.customprogressbar.CustomProgressBar
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:layout_margin="20dp"
-          custom:current_progress="10"/>
+<com.yutailuo.customprogressbar.CustomProgressBar
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   android:layout_margin="20dp"
+   custom:current_progress="10"/>
 ```
 
 ###Demo
